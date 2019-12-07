@@ -25,8 +25,8 @@ def test_mgt(request):
 
 
 	# Connect - By host
-	name = 'dev'
-	#name = 'docean'
+	#name = 'dev'
+	name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
 
@@ -73,8 +73,8 @@ def test_sales(request):
 
 
 	# Connect - By host
-	name = 'dev'
-	#name = 'docean'
+	#name = 'dev'
+	name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
 
