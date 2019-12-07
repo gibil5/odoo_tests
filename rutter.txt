@@ -1,0 +1,163 @@
+Rutters
+---------
+
+Created: 	3 Dec 2019
+Last up: 	3 Dec 2019
+
+Django 
+-------
+
+virtualenv pcm_restaurant 
+source ../bin/activate
+
+pip install django 
+
+django-admin startproject odoo_tests .
+
+pip install djangodoo
+
+pip install psycopg2 
+
+
+# Create Super User
+python manage.py createsuperuser 
+admin_user
+admin_user
+
+
+
+# Applications
+# ------------------------
+python manage.py startapp pages  
+
+
+
+Postgres
+---------
+
+Launch Postgres
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start 
+
+Connect
+psql -p5432 -d "postgres"
+Create
+
+CREATE DATABASE odoo_tests OWNER postgres;
+
+\l
+\q
+
+
+
+Git
+----
+git init
+git add -A
+git commit -m "Initialize repository"
+
+
+
+
+
+
+
+XML-RPC
+-------
+
+pip install odoo-client-lib 
+
+import odoolib
+
+connection = odoolib.get_connection(
+									hostname='localhost', 
+									port=8069, 
+
+									#protocol='jsonrpcs', 
+									protocol='jsonrpc', 
+
+									database="ODOO-TACNA", 
+									login="jrevilla55@gmail.com", 
+									password="nyctal6+")
+
+
+
+Country
+----------
+country_model = connection.get_model('res.country')
+
+
+uk_id = country_model.search([
+								('name', '=', 'United Kingdom')
+							])[0]
+
+uk_id = country_model.search([('name', '=', 'United Kingdom')])[0]
+
+
+
+Partner
+---------
+partner_model = connection.get_model('res.partner')
+
+a_turner = partner_model.create({ 'name': 'Alex Turner', 'street': '505 Arabella Blvd', 'zip': '535 4JL', 'city_id': 1, 'country_id': uk_id, 'phone': '123 456 789', 'email': 'alex@am.co.uk' })
+
+
+
+Product
+---------
+product_model = connection.get_model('product.product')
+
+piano_product = product_model.create({ 'name':'Piano', 'type':'product', 'categ_id':1, 'list_price':12506, 'standar_price':10000 })
+
+
+product_template_model = connection.get_model('product.template')
+
+guitar_product = product_template_model.create({ 'name':'Guitar', 'type':'product', 'categ_id':1, 'list_price':12506, 'standar_price':10000 })
+
+
+
+
+Sales
+---------
+so_model = connection.get_model('sale.order')
+
+
+sale_order = so_model.create({ 'partner_id':a_turner, 'order_line': [(0, 0, {'product_id':piano_product, 'product_uom_qty':1}),] })
+
+so_model.action_confirm(sale_order)
+
+
+
+sas = so_model.search([('partner_id', '=', a_turner)])
+
+
+
+jr_id = partner_model.search([('name', '=', 'REVILLA RONDON JOSE JAVIER')])[0]
+
+
+sas = so_model.search([('partner_id', '=', jr_id)])
+
+
+
+
+
+
+
+
+
+
+
+configurator = self.env['openhealth.configurator.emr'].search([
+																('active', 'in', [True]),],
+												#order='x_serial_nr asc',
+												limit=1,
+											)
+
+
+
+
+
+
+
+
+
+

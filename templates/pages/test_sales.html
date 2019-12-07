@@ -1,0 +1,47 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+
+
+
+<h3>Sales</h3>
+<br>
+
+
+<div class="container">
+
+	<ul class="list-group">
+
+
+		<!-- Loop -->
+		{% for sale in sales %}
+
+
+			<li class="list-group-item">
+
+				<!-- Row -->
+				<div class="row">
+					<div class="col-sm-2">
+						{{sale}}
+					</div>
+
+					<div class="col-sm-4">
+						{{sale.patient}}
+					</div>
+
+					<div class="col-sm-3">
+						{{sale.state}}
+					</div>
+
+					<div class="col-sm-2">
+						{{sale.total}}
+					</div>
+				</div>
+
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+
+
+{% endblock %}

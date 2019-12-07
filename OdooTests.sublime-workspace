@@ -1,0 +1,1484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"da",
+				"date_corrected"
+			],
+			[
+				"get_da",
+				"get_date_corrected"
+			],
+			[
+				"M",
+				"ManagementAdmin"
+			],
+			[
+				"dat",
+				"date_update"
+			],
+			[
+				"sale",
+				"sale_array"
+			],
+			[
+				"ge",
+				"get_partner"
+			],
+			[
+				"sla",
+				"sale_ids"
+			],
+			[
+				"pa",
+				"partner_id"
+			],
+			[
+				"Od",
+				"OdooModel"
+			],
+			[
+				"htt",
+				"http"
+			],
+			[
+				"famil",
+				"family"
+			],
+			[
+				"Fam",
+				"Family"
+			],
+			[
+				"lib",
+				"lib_tst"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"C",
+				"Check"
+			],
+			[
+				"cle",
+				"clean_orders_for_today"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"ob",
+				"objs"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"Or",
+				"OrderAdmin"
+			],
+			[
+				"em",
+				"EmployeeAdmin"
+			],
+			[
+				"fami",
+				"family"
+			],
+			[
+				"name",
+				"names"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"menus",
+				"menus_today"
+			],
+			[
+				"w",
+				"waiter"
+			],
+			[
+				"wai",
+				"waiter_id"
+			],
+			[
+				"or",
+				"order_id"
+			],
+			[
+				"it",
+				"item_arr"
+			],
+			[
+				"item",
+				"item_arr"
+			],
+			[
+				"Co",
+				"Cocinero"
+			],
+			[
+				"Empl",
+				"Employee"
+			],
+			[
+				"cl",
+				"cloudinary"
+			],
+			[
+				"fa",
+				"families"
+			],
+			[
+				"famli",
+				"families"
+			],
+			[
+				"N",
+				"Nombre"
+			],
+			[
+				"men",
+				"menu"
+			],
+			[
+				"form",
+				"form_instance"
+			],
+			[
+				"FA",
+				"Family"
+			],
+			[
+				"itme",
+				"items"
+			],
+			[
+				"Fa",
+				"False"
+			],
+			[
+				"me",
+				"menu"
+			],
+			[
+				"MEn",
+				"MenuForm"
+			],
+			[
+				"family",
+				"family_id"
+			],
+			[
+				"fam",
+				"family_id"
+			],
+			[
+				"ite",
+				"items_dic"
+			],
+			[
+				"fmil",
+				"family"
+			],
+			[
+				"I",
+				"ItemAdmin"
+			],
+			[
+				"Me",
+				"MenuAdmin"
+			],
+			[
+				"dr",
+				"drinks"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"djan",
+				"django_heroku"
+			],
+			[
+				"stat",
+				"staticfiles"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"STATI",
+				"STATIC_ROOT"
+			],
+			[
+				"has",
+				"has_birthday"
+			],
+			[
+				"ca",
+				"camel"
+			],
+			[
+				"came",
+				"camelcase"
+			],
+			[
+				"pe",
+				"people"
+			],
+			[
+				"n",
+				"num"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"per",
+				"person2"
+			],
+			[
+				"g",
+				"Grape"
+			],
+			[
+				"frui",
+				"fruit_set"
+			],
+			[
+				"f",
+				"fruit_set"
+			],
+			[
+				"fui",
+				"fruit_tuple"
+			],
+			[
+				"print",
+				"print_msg"
+			],
+			[
+				"de",
+				"details"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"ques",
+				"question_text"
+			],
+			[
+				"past",
+				"past_question"
+			],
+			[
+				"pas",
+				"past_question"
+			],
+			[
+				"time",
+				"timedelta"
+			],
+			[
+				"L",
+				"ListView"
+			],
+			[
+				"sele",
+				"selected_choice"
+			],
+			[
+				"sel",
+				"selected_choice"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"qu",
+				"question"
+			],
+			[
+				"quest",
+				"Question"
+			],
+			[
+				"que",
+				"question_id"
+			],
+			[
+				"q",
+				"question_id"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"pub",
+				"pub_date"
+			],
+			[
+				"pu",
+				"pub_date"
+			],
+			[
+				"Choi",
+				"ChoiceInline"
+			],
+			[
+				"Que",
+				"QuestionAdmin"
+			],
+			[
+				"pro",
+				"Procedure"
+			],
+			[
+				"in",
+				"invisible"
+			],
+			[
+				"gro",
+				"group"
+			],
+			[
+				"upd",
+				"update_nr_ofs"
+			],
+			[
+				"Proc",
+				"Procedimientos"
+			],
+			[
+				"Consu",
+				"Consultas"
+			],
+			[
+				"Cons",
+				"Consultas"
+			],
+			[
+				"nr",
+				"nr_sales"
+			],
+			[
+				"x_t",
+				"x_treatment_count"
+			],
+			[
+				"Con",
+				"Consultation"
+			],
+			[
+				"res",
+				"res_model"
+			],
+			[
+				"consu",
+				"consultation_ids"
+			],
+			[
+				"ord",
+				"ord_vars"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"order",
+				"order_ids"
+			],
+			[
+				"price",
+				"price_list"
+			],
+			[
+				"P",
+				"Print"
+			],
+			[
+				"ordre",
+				"order_line"
+			],
+			[
+				"pat",
+				"patients"
+			],
+			[
+				"do",
+				"doctor_line"
+			],
+			[
+				"stre",
+				"street2_sel"
+			],
+			[
+				"x_fir",
+				"x_first_contact"
+			],
+			[
+				"qr",
+				"qr_obj"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"maek",
+				"make_serial_number"
+			],
+			[
+				"count",
+				"counter_value"
+			],
+			[
+				"rece",
+				"receptor_ruc"
+			],
+			[
+				"x_i",
+				"check_x_id_doc"
+			],
+			[
+				"recep",
+				"receptor_id_doc_type"
+			],
+			[
+				"ch",
+				"check_and_generate"
+			],
+			[
+				"J",
+				"Junio"
+			],
+			[
+				"V",
+				"Vip"
+			],
+			[
+				"Prod",
+				"Productos"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"x_cre",
+				"x_credit_note_amount"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"dae",
+				"date_array"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"date",
+				"date_array"
+			],
+			[
+				"x",
+				"x_date_created"
+			],
+			[
+				"x_credi",
+				"x_credit_note_owner"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rutter.txt",
+			"settings":
+			{
+				"buffer_size": 2476,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "odoo_tests/settings.py",
+			"settings":
+			{
+				"buffer_size": 3679,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/views.py",
+			"settings":
+			{
+				"buffer_size": 1571,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/lib.py",
+			"settings":
+			{
+				"buffer_size": 3578,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/models.py",
+			"settings":
+			{
+				"buffer_size": 1106,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/admin.py",
+			"settings":
+			{
+				"buffer_size": 932,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "odoo_tests/urls.py",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/pages/test_mgt.html",
+			"settings":
+			{
+				"buffer_size": 634,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/pages/test_sales.html",
+			"settings":
+			{
+				"buffer_size": 556,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/pages/home.html",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/pages/base.html",
+			"settings":
+			{
+				"buffer_size": 1066,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"browser",
+				"Browse Mode: Right Sidebar"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"package control:install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 459.0
+	},
+	"console":
+	{
+		"height": 256.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gibil/Virtualenvs/odoo_tests/odoo_tests/templates/pages/home.html",
+		"/Users/gibil/Virtualenvs/odoo_tests/odoo_tests/pages/urls.py",
+		"/Users/gibil/Virtualenvs/odoo_tests/odoo_tests/pages/models.DEP.py",
+		"/Users/gibil/Virtualenvs/odoo_tests/odoo_tests/pages/models.DEP.2.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/stories/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/tests/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/families/families.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/families/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/tests.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/add.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_itemdic.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/menu.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/menus.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/add_item.DEP.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/add_item.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/pages/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/lib_tst.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/tests.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/items/tests.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/families/tests.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/tests.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/docov",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/setup.cfg",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/pcm/settings.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/rutter.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/readme.md",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/views.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/pages/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/pcm/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/pages/views.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/lib.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/models.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/families/tests.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/1.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/2.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/3.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/4.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/readme.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/lib.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/repo.3.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/repo.4.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/repo.5.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/6.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/7.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/23.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/items/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/apps.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/tests.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/repo.1.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/repo.2.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/8.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/9.repo.txt",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/lib.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/tests/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/items/lib.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order_waiter.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order_cook.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gowaiter.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/cook.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/items/delete.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/tests/create_orders.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/tests/delete_orders.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gotests.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gowaiters.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/waiter.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gocooks.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gocook.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order_cook.DEP.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/cook.DEP.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/items/models.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_goorders.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/items/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/models.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/tests/tests.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/lines/views.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/index.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/tests/clean_orders.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/waiters.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/cooks.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_navbar.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_navbar.DEP.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/models.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/menus/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/tests/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/tables/models.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/home.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/stories/index.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_goback.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/menus/thanks.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/lines/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/stories/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order.DEP.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/lines/views.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/views.DEP.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/thanks.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order_add_line.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/delete.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/thanks.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_goback2.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/_obj_h_field.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_goback3.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/partials/_gostyle.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/stories/admin.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/families/urls.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/items/items.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/employees/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/items/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/families/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/employees/index.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/edit.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/employees/models.dep.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/order_lines.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/orders/forms.py",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/index.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/add_line_order.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/orders/add.html",
+		"/Users/gibil/Virtualenvs/pcm_restaurant/pcm_restaurant/templates/lines/line.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"name",
+			"state",
+			"date",
+			"name"
+		],
+		"highlight": false,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"configurator",
+			"state",
+			"total",
+			"date_update",
+			"date",
+			"x_type",
+			"patient",
+			"total"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "readme.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rutter.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2045,
+								2081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "odoo_tests/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3266,
+								3266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1913.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "pages/lib.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "pages/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "odoo_tests/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/pages/test_mgt.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/pages/test_sales.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/pages/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/pages/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								809,
+								809
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 236.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 27.0
+	},
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "OdooTests.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"s",
+				"~/cellar/github/openhealth/models/emr/service.py"
+			],
+			[
+				"g",
+				"~/cellar/github/openhealth/models/emr/gen_vars.py"
+			],
+			[
+				"m",
+				"~/cellar/github/openhealth/models/management/day_doctor_line.py"
+			],
+			[
+				"c",
+				"~/cellar/github/openhealth/views/containers/container.xml"
+			],
+			[
+				"o",
+				"~/cellar/github/openhealth/models/order/order.py"
+			],
+			[
+				"e",
+				"~/cellar/github/openhealth/models/emr/evaluation.py"
+			],
+			[
+				"p",
+				"~/cellar/github/openhealth/views/procedures/procedure.xml"
+			],
+			[
+				"t",
+				"~/cellar/github/openhealth/models/emr/test_treatment.py"
+			],
+			[
+				"a",
+				"~/cellar/github/openhealth/views/appointments/appointment_search.xml"
+			],
+			[
+				"",
+				"~/cellar/github/openhealth/views/management/management.xml"
+			],
+			[
+				"l",
+				"~/cellar/github/openhealth/models/lib_qr.py"
+			],
+			[
+				"d",
+				"~/cellar/github/openhealth/data/prods/odoo_data_services_consult.xml"
+			],
+			[
+				"r",
+				"~/cellar/github/openhealth/readme.txt"
+			],
+			[
+				"i",
+				"~/cellar/github/openhealth/models/importx.py"
+			],
+			[
+				"pa",
+				"~/cellar/github/openhealth/models/patient.py"
+			],
+			[
+				"ap",
+				"~/cellar/github/openhealth/models/appfuncs.py"
+			],
+			[
+				"h",
+				"~/cellar/github/openhealth/views/histogram/histogram.xml"
+			],
+			[
+				"ka",
+				"~/cellar/github/openhealth/views/kardex/kardex.xml"
+			],
+			[
+				"tick",
+				"~/cellar/github/openhealth/views/sale_documents/ticket_receipts.xml"
+			],
+			[
+				"sa",
+				"~/cellar/github/openhealth/models/sale_proof.py"
+			],
+			[
+				"pro",
+				"~/cellar/github/openhealth/views/products/product.xml"
+			],
+			[
+				"z",
+				"~/cellar/github/openhealth/models/zone.py"
+			],
+			[
+				"b",
+				"~/cellar/github/openhealth/views/base.xml"
+			],
+			[
+				"sec",
+				"~/cellar/github/openhealth/security/openhealth_security.xml"
+			],
+			[
+				"_",
+				"~/cellar/github/openhealth/__openerp__.py"
+			],
+			[
+				"invoi",
+				"~/Virtualenvs/Odoo9-min/odoo/addons/openhealth/models/invoice.py"
+			],
+			[
+				"pr",
+				"~/Virtualenvs/Odoo9-min/odoo/addons/openhealth/models/sale_proof.py"
+			],
+			[
+				"re",
+				"~/Virtualenvs/Odoo9-min/odoo/addons/openhealth/views/sale_documents/receipts.xml"
+			],
+			[
+				"service_ndy",
+				"views/services/service_ndyag.xml"
+			],
+			[
+				"service_ip",
+				"views/services/service_ipl.xml"
+			],
+			[
+				"service",
+				"views/services/service_excilite.xml"
+			],
+			[
+				"order",
+				"views/orders/order.xml"
+			],
+			[
+				"control",
+				"views/controls/control.xml"
+			],
+			[
+				"consult",
+				"views/consultations/consultation.xml"
+			],
+			[
+				"procedure",
+				"views/procedures/procedure.xml"
+			],
+			[
+				"ser",
+				"views/services/service_co2.xml"
+			],
+			[
+				"trea",
+				"views/treatments/treatment.xml"
+			],
+			[
+				"patient",
+				"views/patients/patient.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Virtualenvs/pcm_restaurant/pcm_restaurant/PCM-Restaurant.sublime-project"
+			],
+			[
+				"\t",
+				"~/Documents/Aptana Studio 3 Workspace/ccdata/ccData.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

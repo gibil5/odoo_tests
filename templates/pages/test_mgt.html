@@ -1,0 +1,50 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+
+
+
+<h3>Management</h3>
+<br>
+
+
+<div class="container">
+
+	<ul class="list-group">
+
+		<!-- Loop -->
+		{% for repo in repos %}
+		
+			<li class="list-group-item">
+
+				<!-- Row -->
+				<div class="row">
+
+					<div class="col-sm-2">
+						{{repo}}
+					</div>
+
+					<div class="col-sm-2">
+						{{repo.date_update}}
+					</div>
+
+					<div class="col-sm-2">
+						{{repo.date}}
+					</div>
+
+					<div class="col-sm-2">
+						{{repo.configurator}}
+					</div>
+
+					<div class="col-sm-2">
+						{{repo.total}}
+					</div>
+				</div>
+			</li>
+
+		{% endfor %}
+	</ul>
+</div>
+
+
+{% endblock %}
