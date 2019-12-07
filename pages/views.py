@@ -24,37 +24,12 @@ def test_mgt(request):
 	Management.objects.all().delete()
 
 
-	# Connect
-	#connection = lib.connect()
-
-	#hostname = 'localhost'
-	#database = 'ODOO-TACNA'
-	#login = 'jrevilla55@gmail.com'
-	#password = 'nyctal6+'
-
-	hostname = '157.230.146.12'
-	database = 'Odoo9-Test'
-	login = 'jrevilla55@gmail.com'
-	password = 'atojatojcha'
-
-
-
-	# By host
-	#name = 'dev'
-	#name = 'docean'
-	#name = 'tacna'
-	#name = 'lima'
-	#host = Host.objects.all(name=name)
-
-
-	# By host
+	# Connect - By host
 	name = 'dev'
 	#name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
-	#host = Host.objects.all(name=name)
 
-	#connection = lib.connect(hostname, database, login, password)
 	connection = lib.connect(name)
 
 
@@ -69,7 +44,7 @@ def test_mgt(request):
 	#name = 'Febrero 2019'
 	name = 'all'
 	
-	#repos = lib.get_management_repos(connection, year)
+
 	repos = lib.get_management_repos(connection, year, name)
 
 	print(repos)
@@ -97,29 +72,12 @@ def test_sales(request):
 	Sale.objects.all().delete()
 
 
-	# Connect
-	#connection = lib.connect()
-
-	#hostname = 'localhost'
-	#database = 'ODOO-TACNA'
-	#login = 'jrevilla55@gmail.com'
-	#password = 'nyctal6+'
-
-	#hostname = '157.230.146.12'
-	#database = 'Odoo9-Test'
-	#login = 'jrevilla55@gmail.com'
-	#password = 'atojatojcha'
-
-
-
-	# By host
+	# Connect - By host
 	name = 'dev'
 	#name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
-	#host = Host.objects.all(name=name)
 
-	#connection = lib.connect(hostname, database, login, password)
 	connection = lib.connect(name)
 
 
@@ -132,7 +90,6 @@ def test_sales(request):
 
 
 	# Sales
-	#sale_ids, so_model = lib.get_sales(connection, partner_id)
 	sales = lib.get_sales(connection, partner_id)
 	print(sales)
 
