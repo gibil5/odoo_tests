@@ -205,9 +205,22 @@ def get_partner(connection, name):
 # Connect
 #def connect():
 #def connect(hostname, database):
-def connect(hostname, database, login, password):
+#def connect(hostname, database, login, password):
+def connect(name):
 	print()
-	print('Test Sales')
+	print('Connect')
+
+
+	host = Host.objects.filter(name=name)[0]
+	print(host)
+
+	hostname = host.hostname
+	database = host.database
+	login = host.login
+	password = host.password
+
+	print(hostname)
+
 
 	# Connect - Json Rpc
 	connection = odoolib.get_connection(

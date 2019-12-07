@@ -46,5 +46,28 @@ class ManagementAdmin(admin.ModelAdmin):
 
 
 
+class HostAdmin(admin.ModelAdmin):
+
+	list_display = ('name', 'hostname', 'database', 'login', 'password', )
+
+	list_display_links = ('name', )
+
+	#list_filter = ('state', 'x_type', )
+
+	#list_editable = ('active',)
+
+	#search_fields = ('title', 'description', 'address', 'city', 'zipcode', 'price')
+
+	#list_per_page = 25
+
+
+
+
 admin.site.register(Sale, SaleAdmin)
+
 admin.site.register(Management, ManagementAdmin)
+
+admin.site.register(Host, HostAdmin)
+
+
+

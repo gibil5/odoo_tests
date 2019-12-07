@@ -37,7 +37,26 @@ def test_mgt(request):
 	login = 'jrevilla55@gmail.com'
 	password = 'atojatojcha'
 
-	connection = lib.connect(hostname, database, login, password)
+
+
+	# By host
+	#name = 'dev'
+	#name = 'docean'
+	#name = 'tacna'
+	#name = 'lima'
+	#host = Host.objects.all(name=name)
+
+
+	# By host
+	name = 'dev'
+	#name = 'docean'
+	#name = 'tacna'
+	#name = 'lima'
+	#host = Host.objects.all(name=name)
+
+	#connection = lib.connect(hostname, database, login, password)
+	connection = lib.connect(name)
+
 
 
 	# Reports
@@ -86,12 +105,23 @@ def test_sales(request):
 	#login = 'jrevilla55@gmail.com'
 	#password = 'nyctal6+'
 
-	hostname = '157.230.146.12'
-	database = 'Odoo9-Test'
-	login = 'jrevilla55@gmail.com'
-	password = 'atojatojcha'
+	#hostname = '157.230.146.12'
+	#database = 'Odoo9-Test'
+	#login = 'jrevilla55@gmail.com'
+	#password = 'atojatojcha'
 
-	connection = lib.connect(hostname, database, login, password)
+
+
+	# By host
+	name = 'dev'
+	#name = 'docean'
+	#name = 'tacna'
+	#name = 'lima'
+	#host = Host.objects.all(name=name)
+
+	#connection = lib.connect(hostname, database, login, password)
+	connection = lib.connect(name)
+
 
 
 

@@ -109,4 +109,46 @@ class Management(OdooModel):
 
 
 
+# Host
+class Host(models.Model):
+
+	"""
+	Host
+	"""
+
+	class Meta:
+		ordering = ('name',)
+
+
+	name = models.CharField(
+		max_length=200,
+	)
+
+
+
+	hostname = models.CharField(
+		max_length=200,
+	)
+
+
+	database = models.CharField(
+		max_length=200,
+	)
+
+
+	login = models.CharField(
+		max_length=200,
+	)
+
+
+	password = models.CharField(
+		max_length=200,
+	)
+
+
+
+
+
+
+
 
