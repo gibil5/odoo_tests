@@ -11,59 +11,77 @@ import odoolib
 from .models import *
 
 
-# ----------------------------------------------------------- Aux ----------------
+# ----------------------------------------------------------- Aux ---------------------------------
 def get_date_corrected(date_order):
 	"""
 	Used by:
 		- Get Ticket Raw
 	"""
-	print()
-	print('Get Date Corrected')
-	print(date_order)
+	#print()
+	#print('Get Date Corrected')
+	#print(date_order)
 
-	print()
-	print('mark 1')
+	#print()
+	#print('mark 1')
 
 	DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 	#DATETIME_FORMAT = "%d-%m-%y- %H:%M:%S"
 
 	date_field1 = datetime.datetime.strptime(date_order, DATETIME_FORMAT)
-	print(date_field1)
+	#print(date_field1)
 
 
-	print()
-	print('mark 2')
+	#print()
+	#print('mark 2')
 
 	date_field2 = date_field1 + datetime.timedelta(hours=-5, minutes=0)
-	print(date_field2)
+	#print(date_field2)
 	
 
 	#DATETIME_FORMAT_2 = "%d-%m-%Y %H:%M:%S"
 
-	print()
-	print('mark 3')
+	#print()
+	#print('mark 3')
 
 	#date_corrected = date_field2.strftime(DATETIME_FORMAT_2)
 	date_corrected = date_field2.strftime(DATETIME_FORMAT)
-	print(date_corrected)
+	#print(date_corrected)
 
-	print()
-	print('mark 4')
+	#print()
+	#print('mark 4')
 	return date_corrected
 
 
 
 # ------------------------------------------------ Connect ---------------------
 
-def get_management_repos(connection, year):
+# Get Managements
+def get_management_repos(connection, year, name):
 	print()
 	print('Get Management Repos')
+	print()
 
 	mgt_array = []
 
 	so_model = connection.get_model('openhealth.management')
 
-	repo_ids = so_model.search([('year', '=', year)])
+
+	# Search
+	if name in ['all']:	
+		repo_ids = so_model.search([
+										('year', '=', year),
+									])
+	else:
+		repo_ids = so_model.search([
+										('year', '=', year),
+										('name', '=', name),
+									])
+
+
+
+	print(repo_ids)
+
+
 
 	for repo_id in repo_ids:
 
@@ -86,8 +104,8 @@ def get_management_repos(connection, year):
 		
 		total = so_model.get_total(repo_id)
 
-
 		configurator = so_model.get_configurator(repo_id)
+
 
 		print(name)
 		print(date)
@@ -107,6 +125,7 @@ def get_management_repos(connection, year):
 		print(mgt)
 		print()
 		print()
+		print()
 		
 		mgt_array.append(mgt)
 
@@ -115,6 +134,7 @@ def get_management_repos(connection, year):
 
 
 
+# Get Sales
 def get_sales(connection, partner_id):
 	print()
 	print('Get Partner')
@@ -180,19 +200,33 @@ def get_partner(connection, name):
 
 
 
-def connect():
+# ----------------------------------------------------------- Connect ---------------------------------
+
+# Connect
+#def connect():
+#def connect(hostname, database):
+def connect(hostname, database, login, password):
 	print()
 	print('Test Sales')
 
 	# Connect - Json Rpc
-	connection = odoolib.get_connection(hostname='localhost',\
-										port=8069,\
-										protocol='jsonrpc',\
-										database="ODOO-TACNA",\
-										login="jrevilla55@gmail.com",\
-										password="nyctal6+"\
+	connection = odoolib.get_connection(
+											#hostname='localhost',
+											#login="jrevilla55@gmail.com",
+											#database="ODOO-TACNA",
+											#password="nyctal6+",
+
+											hostname=hostname,
+											database=database,											
+											login=login,
+											password=password,
+
+											port=8069,
+											protocol='jsonrpc',
 									)
 	print()
 	print(connection)
 
 	return connection
+
+

@@ -20,22 +20,39 @@ def test_mgt(request):
 	print()
 	print('Test Report Mgt')
 
-	# Connect
-	lib.connect()
-
-
 	# Clean
 	Management.objects.all().delete()
 
 
 	# Connect
-	connection = lib.connect()
+	#connection = lib.connect()
+
+	#hostname = 'localhost'
+	#database = 'ODOO-TACNA'
+	#login = 'jrevilla55@gmail.com'
+	#password = 'nyctal6+'
+
+	hostname = '157.230.146.12'
+	database = 'Odoo9-Test'
+	login = 'jrevilla55@gmail.com'
+	password = 'atojatojcha'
+
+	connection = lib.connect(hostname, database, login, password)
 
 
 	# Reports
 	year = '2019'
 	#year = '2018'
-	repos = lib.get_management_repos(connection, year)
+
+	#name = 'Diciembre 2019'
+	#name = 'Agosto 2019'
+	#name = 'Junio 2019'
+	#name = 'Febrero 2019'
+	name = 'all'
+	
+	#repos = lib.get_management_repos(connection, year)
+	repos = lib.get_management_repos(connection, year, name)
+
 	print(repos)
 
 
@@ -62,13 +79,25 @@ def test_sales(request):
 
 
 	# Connect
-	connection = lib.connect()
+	#connection = lib.connect()
+
+	#hostname = 'localhost'
+	#database = 'ODOO-TACNA'
+	#login = 'jrevilla55@gmail.com'
+	#password = 'nyctal6+'
+
+	hostname = '157.230.146.12'
+	database = 'Odoo9-Test'
+	login = 'jrevilla55@gmail.com'
+	password = 'atojatojcha'
+
+	connection = lib.connect(hostname, database, login, password)
 
 
 
 	# Partners
-	#name = 'REVILLA RONDON JOSE JAVIER'
-	name = 'PATIÑO PATIÑO NIÑA CLARA'
+	name = 'REVILLA RONDON JOSE JAVIER'
+	#name = 'PATIÑO PATIÑO NIÑA CLARA'
 	partner_id = lib.get_partner(connection, name)
 
 
