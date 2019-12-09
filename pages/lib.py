@@ -9,7 +9,7 @@
 import datetime
 import odoolib
 from .models import *
-
+import sys
 
 # ----------------------------------------------------------- Aux ---------------------------------
 def get_date_corrected(date_order):
@@ -86,6 +86,13 @@ def get_management_repos(connection, year, name):
 
 		# Tests
 
+		out_0 = 0 
+		out_1 = 0 
+		out_2 = 0 
+		out_3 = 0 
+		out_4 = 0 
+
+
 		# Fast
 		print('Test - Fast')
 		out_0 = so_model.update_fast(repo_id)
@@ -106,28 +113,67 @@ def get_management_repos(connection, year, name):
 		out_3 = so_model.update_productivity(repo_id)
 		print(out_3)
 
+
 		# Daily
-		print('Test - Daily')
-		out_4 = so_model.update_daily(repo_id)
-		print(out_4)
+		#print('Test - Daily')
+		#out_4 = so_model.update_daily(repo_id)
+		#print(out_4)
+		try:
+			out_4 = so_model.update_daily(repo_id)
+			print(out_4)
+
+
+		except odoolib.main.JsonRPCException:
+			print('Lib - Exception')
+
+			etype, eval, etb = sys.exc_info()
+			
+			print(etype)
+			print()
+			print(eval)
+			print()
+			#print(etb)
+			#print()
+
+			#print(eval.message)
+			#print(eval['message'])
+			#print(eval['code'])
+			#print(eval['data'])
+			print()
+
+		except:
+			print("Something else went wrong")
+			print()
+
+
+
 
 
 		# Total
-		out = out_0 + out_1 + out_2 + out_3 + out_4
-		print(out)
+		state_value = out_0 + out_1 + out_2 + out_3 + out_4
+		print()
+		print(state_value)
 
-		if out == 5:
+		if state_value == 5:
 			print('Stable')
 			state = 'stable'
-
 		else:
 			print('Unstable')
 			state = 'unstable'
 
 
+
 		# Set State
 		so_model.set_state(repo_id, state)
 
+
+
+		# Test content
+		out_0, out_1 = so_model.validate(repo_id)
+		content_value = out_0 + out_1
+		print(out_0)
+		print(out_1)
+		print(content_value)
 
 
 
@@ -142,11 +188,13 @@ def get_management_repos(connection, year, name):
 		date_update = get_date_corrected(so_model.get_date_update(repo_id))
 
 
-		#state = so_model.get_state(repo_id)
 		
 		total = so_model.get_total(repo_id)
 
 		configurator = so_model.get_configurator(repo_id)
+
+		state = so_model.get_state(repo_id)
+
 
 		print()
 		print()
@@ -155,6 +203,7 @@ def get_management_repos(connection, year, name):
 		print(date_update)
 		print(total)
 		print(configurator)
+		print(state)
 
 							#state=state,
 		mgt = Management(name=name, 
@@ -162,6 +211,9 @@ def get_management_repos(connection, year, name):
 							date_update=date_update,
 							total=total,
 							configurator=configurator,
+							state=state, 
+							state_value=state_value, 
+							content_value=content_value, 
 		) 	
 
 		mgt.save()

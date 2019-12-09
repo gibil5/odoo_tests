@@ -13,6 +13,10 @@ from django.utils import timezone
 
 
 
+
+
+
+# ------------------------------------------------ Models ---------------------
 class OdooModel(models.Model):
 	"""
 	Odoo Model
@@ -35,6 +39,19 @@ class OdooModel(models.Model):
 
 	state = models.CharField(
 		max_length=200,
+	)
+
+
+	state_value = models.IntegerField(
+		default=0,
+	)
+
+
+
+	content_value = models.DecimalField(
+		max_digits=10, 
+		decimal_places=2,
+		default=0,
 	)
 
 

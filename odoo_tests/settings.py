@@ -62,6 +62,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+
+    #'pages.middleware.MyExceptionMiddleware',
+    #'pages.middleware.StackOverflowMiddleware',
 ]
 
 ROOT_URLCONF = 'odoo_tests.urls'

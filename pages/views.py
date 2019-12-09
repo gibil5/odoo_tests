@@ -13,6 +13,10 @@ from . import lib
 
 # Create your views here.
 
+import odoolib
+import sys
+
+
 
 
 # ------------------------------------------------ Test Management ---------------------
@@ -25,9 +29,9 @@ def test_mgt(request):
 
 
 	# Connect - By host
-	name = 'dev'
+	#name = 'dev'
 	#name = 'docean'
-	#name = 'tacna'
+	name = 'tacna'
 	#name = 'lima'
 
 	connection = lib.connect(name)
@@ -43,23 +47,20 @@ def test_mgt(request):
 	#name = 'Agosto 2019'
 	#name = 'Junio 2019'
 	#name = 'Febrero 2019'
+	
 	name = 'all'
 	
 
 	repos = lib.get_management_repos(connection, year, name)
-
 	print(repos)
-
 
 	ctx = {
 			'repos': repos,
-
 	}
 
 	output = render(request, 'pages/test_mgt.html', ctx)
 
 	return HttpResponse(output)
-
 
 
 
@@ -74,9 +75,9 @@ def test_sales(request):
 
 
 	# Connect - By host
-	name = 'dev'
+	#name = 'dev'
 	#name = 'docean'
-	#name = 'tacna'
+	name = 'tacna'
 	#name = 'lima'
 
 	connection = lib.connect(name)
