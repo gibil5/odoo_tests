@@ -3,7 +3,7 @@
 	Pages - Views
 
 	Created:	 3 Dec 2019
-	Last up:	 3 Dec 2019
+	Last up:	 9 Dec 2019
 """
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
@@ -20,6 +20,59 @@ import sys
 
 
 # ------------------------------------------------ Test Management ---------------------
+def test_mgt_repo(request, repo_id):
+	print()
+	print('Test Report Mgt - Repo Id')
+	print(repo_id)
+
+
+	# Clean
+	Management.objects.all().delete()
+
+
+	# Connect - By host
+	if repo_id == 1:
+		name = 'dev'
+	
+	elif repo_id == 2:
+		name = 'docean'
+	
+	elif repo_id == 3:
+		name = 'tacna'
+
+	#elif repo_id == 4:
+	#	name = 'lima'
+
+
+
+	print(name)
+	connection = lib.connect(name)
+
+
+
+	# Reports
+	year = '2019'	
+	#name = 'Diciembre 2019'
+	name = 'all'
+	repos = lib.get_management_repos(connection, year, name)
+	print(repos)
+
+	ctx = {
+			'repos': repos,
+	}
+
+	output = render(request, 'pages/test_mgt.html', ctx)
+
+	return HttpResponse(output)
+
+
+
+
+
+
+
+
+
 def test_mgt(request):
 	print()
 	print('Test Report Mgt')
