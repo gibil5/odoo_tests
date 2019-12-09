@@ -25,8 +25,8 @@ def test_mgt(request):
 
 
 	# Connect - By host
-	#name = 'dev'
-	name = 'docean'
+	name = 'dev'
+	#name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
 
@@ -37,6 +37,7 @@ def test_mgt(request):
 	# Reports
 	year = '2019'
 	#year = '2018'
+
 
 	#name = 'Diciembre 2019'
 	#name = 'Agosto 2019'
@@ -73,8 +74,8 @@ def test_sales(request):
 
 
 	# Connect - By host
-	#name = 'dev'
-	name = 'docean'
+	name = 'dev'
+	#name = 'docean'
 	#name = 'tacna'
 	#name = 'lima'
 

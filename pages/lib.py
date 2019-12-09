@@ -58,7 +58,7 @@ def get_date_corrected(date_order):
 # Get Managements
 def get_management_repos(connection, year, name):
 	print()
-	print('Get Management Repos')
+	print('Test Management')
 	print()
 
 	mgt_array = []
@@ -77,17 +77,59 @@ def get_management_repos(connection, year, name):
 										('name', '=', name),
 									])
 
-
-
-	print(repo_ids)
+	#print(repo_ids)
 
 
 
 	for repo_id in repo_ids:
 
 
-		# Functions
-		test = so_model.update_fast(repo_id)
+		# Tests
+
+		# Fast
+		print('Test - Fast')
+		out_0 = so_model.update_fast(repo_id)
+		print(out_0)
+
+		# Patients
+		print('Test - Patients')
+		out_1 = so_model.update_patients(repo_id)
+		print(out_1)
+
+		# Doctors
+		print('Test - Doctors')
+		out_2 = so_model.update_doctors(repo_id)
+		print(out_2)
+
+		# Productivity
+		print('Test - Productivity')
+		out_3 = so_model.update_productivity(repo_id)
+		print(out_3)
+
+		# Daily
+		print('Test - Daily')
+		out_4 = so_model.update_daily(repo_id)
+		print(out_4)
+
+
+		# Total
+		out = out_0 + out_1 + out_2 + out_3 + out_4
+		print(out)
+
+		if out == 5:
+			print('Stable')
+			state = 'stable'
+
+		else:
+			print('Unstable')
+			state = 'unstable'
+
+
+		# Set State
+		so_model.set_state(repo_id, state)
+
+
+
 
 
 		# Variables
@@ -106,7 +148,8 @@ def get_management_repos(connection, year, name):
 
 		configurator = so_model.get_configurator(repo_id)
 
-
+		print()
+		print()
 		print(name)
 		print(date)
 		print(date_update)
@@ -212,14 +255,14 @@ def connect(name):
 
 
 	host = Host.objects.filter(name=name)[0]
-	print(host)
+	#print(host)
 
 	hostname = host.hostname
 	database = host.database
 	login = host.login
 	password = host.password
 
-	print(hostname)
+	#print(hostname)
 
 
 	# Connect - Json Rpc
@@ -237,8 +280,8 @@ def connect(name):
 											port=8069,
 											protocol='jsonrpc',
 									)
-	print()
-	print(connection)
+	#print()
+	#print(connection)
 
 	return connection
 
