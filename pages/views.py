@@ -8,7 +8,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 
-from .models import Sale, Management
+#from .models import Sale, Management
+from .models import *
+
 from . import lib
 
 # Create your views here.
@@ -18,42 +20,144 @@ import sys
 
 
 
-
-# ------------------------------------------------ Test Management ---------------------
-def test_mgt_repo(request, repo_id):
+# ------------------------------------------------ Test Sites ---------------------
+def test_dev(request):
 	print()
-	print('Test Report Mgt - Repo Id')
-	print(repo_id)
+	print('Test Dev')
+
+	ctx = {}
+
+	output = render(request, 'pages/test_dev.html', ctx)
+
+	return HttpResponse(output)
+
+
+def test_tacna(request):
+	print()
+	print('Test Tacna')
+
+	ctx = {}
+
+	output = render(request, 'pages/test_tacna.html', ctx)
+
+	return HttpResponse(output)
+
+
+def test_lima(request):
+	print()
+	print('Test Lima')
+
+	ctx = {}
+
+	output = render(request, 'pages/test_lima.html', ctx)
+
+	return HttpResponse(output)
+
+
+
+
+# ------------------------------------------------ Test Mkt ---------------------
+def test_mkt_repo(request, name):
+	print()
+	print('Test Report MKT - Name')
+	print(name)
 
 
 	# Clean
-	Management.objects.all().delete()
+	Marketing.objects.all().delete()
+
 
 
 	# Connect - By host
-	if repo_id == 1:
-		name = 'dev'
-	
-	elif repo_id == 2:
-		name = 'docean'
-	
-	elif repo_id == 3:
-		name = 'tacna'
-
-	#elif repo_id == 4:
-	#	name = 'lima'
-
-
-
-	print(name)
 	connection = lib.connect(name)
-
 
 
 	# Reports
 	year = '2019'	
 	#name = 'Diciembre 2019'
 	name = 'all'
+
+
+	state_arr, repos = lib.update_mkt_repos(connection, year, name)
+	print(state_arr)
+	print(repos)
+
+
+
+	ctx = {
+			'repos': repos,
+	}
+
+	output = render(request, 'pages/test_mkt.html', ctx)
+
+	return HttpResponse(output)
+
+
+
+
+
+
+# ------------------------------------------------ Test RSP ---------------------
+def test_rsp_repo(request, name):
+	print()
+	print('Test Report RSP - Name')
+	print(name)
+
+
+	# Clean
+	ReportSaleProduct.objects.all().delete()
+
+
+
+	# Connect - By host
+	connection = lib.connect(name)
+
+
+	# Reports
+	year = '2019'	
+	#name = 'Diciembre 2019'
+	name = 'all'
+
+
+	state_arr, repos = lib.update_rsp_repos(connection, year, name)
+	print(state_arr)
+	print(repos)
+
+
+
+	ctx = {
+			'repos': repos,
+	}
+
+	output = render(request, 'pages/test_rsp.html', ctx)
+
+	return HttpResponse(output)
+
+
+
+
+
+
+
+# ------------------------------------------------ Test Management ---------------------
+def test_mgt_repo(request, name):
+	print()
+	print('Test Report Mgt - Name')
+
+	print(name)
+
+	# Clean
+	Management.objects.all().delete()
+
+	# Connect - By host
+	connection = lib.connect(name)
+
+
+	# Reports
+	year = '2019'	
+	#name = 'Diciembre 2019'
+	name = 'all'
+
 	repos = lib.get_management_repos(connection, year, name)
 	print(repos)
 

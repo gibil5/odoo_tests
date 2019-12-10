@@ -1,0 +1,65 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+
+
+
+<h3>Marketing</h3>
+<br>
+
+
+
+<div class="container">
+
+	<ul class="list-group">
+
+		<!-- Loop -->
+		{% for repo in repos %}
+		
+			<li class="list-group-item">
+
+				<!-- Row -->
+				<div class="row">
+
+					<div class="col-sm-2">
+						{{repo}}
+					</div>
+
+
+					<div class="col-sm-2">
+						{{repo.date_test}}
+					</div>
+
+
+					<div class="col-sm-2">
+						{{repo.date_begin}}
+					</div>
+
+					<div class="col-sm-2">
+						{{repo.date_end}}
+					</div>
+
+
+<!--
+					<div class="col-sm-1">
+						{{repo.total}}
+					</div>
+-->
+
+					<div class="col-sm-1">
+						{{repo.count}}
+					</div>
+
+					<div class="col-sm-1">
+						{{repo.state}}
+					</div>
+
+				</div>
+			</li>
+
+		{% endfor %}
+	</ul>
+</div>
+
+
+{% endblock %}

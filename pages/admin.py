@@ -45,6 +45,42 @@ class ManagementAdmin(admin.ModelAdmin):
 
 
 
+class ReportSaleProductAdmin(admin.ModelAdmin):
+
+	list_display = ('name', 'date_begin', 'date_end', 'date_test', 'state', 'total', 'count', )
+
+	list_display_links = ('name', )
+
+	list_filter = ('state', )
+
+	#list_editable = ('active',)
+
+	#search_fields = ('title', 'description', 'address', 'city', 'zipcode', 'price')
+
+	#list_per_page = 25
+
+
+
+
+class MarketingAdmin(admin.ModelAdmin):
+
+	list_display = ('name', 'date_begin', 'date_end', 'date_test', 'state', 'total', 'count', )
+
+	list_display_links = ('name', )
+
+	list_filter = ('state', )
+
+	#list_editable = ('active',)
+
+	#search_fields = ('title', 'description', 'address', 'city', 'zipcode', 'price')
+
+	#list_per_page = 25
+
+
+
+
+
+
 
 class HostAdmin(admin.ModelAdmin):
 
@@ -66,6 +102,11 @@ class HostAdmin(admin.ModelAdmin):
 admin.site.register(Sale, SaleAdmin)
 
 admin.site.register(Management, ManagementAdmin)
+
+admin.site.register(ReportSaleProduct, ReportSaleProductAdmin)
+
+admin.site.register(Marketing, MarketingAdmin)
+
 
 admin.site.register(Host, HostAdmin)
 

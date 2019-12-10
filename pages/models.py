@@ -32,9 +32,28 @@ class OdooModel(models.Model):
 	)
 
 
+
 	date = models.DateTimeField(
 		default=timezone.now
 	)
+
+
+
+	date_begin = models.DateTimeField(
+		default=timezone.now
+	)
+
+	date_end = models.DateTimeField(
+		default=timezone.now
+	)
+
+	date_test = models.DateTimeField(
+		default=timezone.now
+	)
+
+
+
+
 
 
 	state = models.CharField(
@@ -61,6 +80,14 @@ class OdooModel(models.Model):
 		decimal_places=2,
 		default=0,
 	)
+
+
+
+	count = models.IntegerField(
+		default=0,
+	)
+
+
 
 
 	patient = models.CharField(
@@ -121,6 +148,33 @@ class Management(OdooModel):
 
 	class Meta:
 		ordering = ('-date',)
+
+
+
+
+# RSP
+class ReportSaleProduct(OdooModel):
+	"""
+	RSP
+	"""
+	class Meta:
+		ordering = ('-date_begin',)
+
+
+
+
+
+# Marketing
+class Marketing(OdooModel):
+
+	"""
+	Marketing
+	"""
+
+	class Meta:
+		ordering = ('-date',)
+
+
 
 
 
