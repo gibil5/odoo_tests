@@ -378,8 +378,13 @@ def get_management_repos(connection, year, name):
 
 		# Variables
 		name = so_model.get_name(repo_id)
-		date = so_model.get_date(repo_id)
-		date_update = get_date_corrected(so_model.get_date_update(repo_id))
+		
+		#date = so_model.get_date(repo_id)
+		date = so_model.get_date_begin(repo_id)
+		
+		#date_update = get_date_corrected(so_model.get_date_update(repo_id))
+		date_update = get_date_corrected(so_model.get_date_test(repo_id))
+		
 		total = so_model.get_total(repo_id)
 		configurator = so_model.get_configurator(repo_id)
 		state = so_model.get_state(repo_id)

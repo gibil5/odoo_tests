@@ -568,7 +568,7 @@
 			"file": "pages/lib.py",
 			"settings":
 			{
-				"buffer_size": 9581,
+				"buffer_size": 9702,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -1050,15 +1050,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9581,
+						"buffer_size": 9702,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2839,
-								2839
+								5918,
+								5918
 							]
 						],
 						"settings":
@@ -1067,7 +1067,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2993.0,
+						"translation.y": 5521.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
